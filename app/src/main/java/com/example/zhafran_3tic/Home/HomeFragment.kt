@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import com.example.zhafran_3tic.Home.pertemuan_5.LimaActivity
 import com.example.zhafran_3tic.Home.pertemuan_6.EnamActivity
+import com.example.zhafran_3tic.Home.pertemuan_9.NinthActivity
 import com.example.zhafran_3tic.LoginActivity
 import com.example.zhafran_3tic.R
 import com.example.zhafran_3tic.databinding.FragmentHomeBinding
@@ -50,6 +51,11 @@ class HomeFragment : Fragment() {
 
         binding.btnToEnam.setOnClickListener {
             val intent = Intent(requireContext(), EnamActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnToNinth.setOnClickListener {
+            val intent = Intent(requireContext(), NinthActivity::class.java)
             startActivity(intent)
         }
 
