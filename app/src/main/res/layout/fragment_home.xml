@@ -95,9 +95,6 @@
             android:backgroundTint="#E67474"
             android:text="Pertemuan 5"
             app:layout_columnWeight="1"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnKembali"
             app:layout_gravity="fill_horizontal" />
 
 
@@ -109,10 +106,6 @@
             android:backgroundTint="#FF9800"
             android:text="Pertemuan 6"
             app:layout_columnWeight="1"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.503"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnToLima"
             app:layout_gravity="fill_horizontal" />
 
         <Button
@@ -122,9 +115,15 @@
             android:backgroundTint="#BAA27E"
             android:text="Pertemuan 9"
             app:layout_columnWeight="1"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnToEnam"
+            app:layout_gravity="fill_horizontal" />
+
+        <Button
+            android:id="@+id/btnToEleventh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:text="Pertemuan 11"
+            app:layout_columnWeight="1"
             app:layout_gravity="fill_horizontal" />
 
     </androidx.gridlayout.widget.GridLayout>
