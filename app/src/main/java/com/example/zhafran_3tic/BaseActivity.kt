@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import com.example.zhafran_3tic.Home.HomeFragment
 import com.example.zhafran_3tic.Message.MessageFragment
 import com.example.zhafran_3tic.More.MoreFragment
+import com.example.zhafran_3tic.Note.NoteFragment
 import com.example.zhafran_3tic.databinding.ActivityBaseBinding
 
 
@@ -42,6 +43,11 @@ class BaseActivity : AppCompatActivity() {
 
                 R.id.more -> {
                     replaceFragment(MoreFragment())
+                    true
+                }
+
+                R.id.note -> {
+                    replaceFragment(NoteFragment())
                     true
                 }
 
